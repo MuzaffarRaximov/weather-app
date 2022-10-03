@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("./sunishi.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+.left_block, .right_block{
+
+   width: 50%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input{
+    height: 40px;
+    width: 55%;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.499);
+    color: rgba(0, 0, 0, 0.616);
+    padding-left: 10px;
+
+}
+
+.input:focus{
+    background-color: rgba(240, 248, 255, 0.5);
+    border: 3px solid white;
+
+}
+
+.content{
+  width: 70%;
+  height: 70%;
+  
+  
+
+}
+.country{
+    font-size: 50px;
+    color: rgb(13, 81, 141);
+
+
+
+
+}
+
+.date{
+    font-size: 30px;
+    color: rgba(23, 72, 114, 0.829);
+
+
+}
+
+.temp{
+    font-size: 80px;
+    margin: 40px 20px;
+    color: rgba(0, 0, 255, 0.418);
+
+}
+.condition{
+    font-size: 30px;
+    color: darkslategray;
+        
+
+}
+
+.tempCases{
+    font-size: 20px;
+    color: rgba(47, 79, 79, 0.815);
+    margin-top: 20px;
+
+}
+
+.modal_block{
+   position: absolute;
+   right: 15px;
+}
+.modal{
+    width: 250px;
+    height: 60px;
+    border: 2px solid red;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blur(2px);
+}
+
+.fade{
+    transform: translateY(-900%);
+    transition: all 0.5s ease-in;
+}
+.none{
+    display: none;
+}
